@@ -12,12 +12,9 @@ For more information regarding the food journal, [please see my Angular project]
 
 # How To Use
 
-* **Domain** => _https://foodjournal-api.herokuapp.com_
-
-* **Endpoints**
-  * **/food** => Get a list of all food entries
-  * **/food/random** => Get a random food entry
-  * **/food/{id}** => Get the entry with the corresponding id 
+* **https://foodjournal-api.herokuapp.com/food** => Get a list of all food entries
+ * **https://foodjournal-api.herokuapp.com/food/random** => Get a random food entry
+ * **https://foodjournal-api.herokuapp.com/food/{id}** => Get the entry with the corresponding id 
     * **Example**: _https://foodjournal-api.herokuapp.com/food/5_
 
 # Credits
