@@ -8,13 +8,20 @@ A few years ago, I tracked every purchase I've made that was related to food or 
 
 First I created a website with HTML, CSS, JavaScript and PHP which sent the data to a MySQL database over a simple form. For this I had to input every item on every receipt during the time of the project.
 
+Now I've put all these data into a new database and made it accessible over an api.
+
 For more information regarding the food journal, [please see my Angular project](https://food-journal.netlify.app/#/).
 
 # How To Use
 
-* **https://foodjournal-api.herokuapp.com/food** => Get a list of all food entries
-* **https://foodjournal-api.herokuapp.com/food/random** => Get a random food entry
-* **https://foodjournal-api.herokuapp.com/food/{id}** => Get the entry with the corresponding id 
+* Show all entries
+  * https://foodjournal-api.herokuapp.com/food
+<br><br>
+* Show random entry
+  * https://foodjournal-api.herokuapp.com/food/random
+<br><br>
+* Show entry by id
+  * https://foodjournal-api.herokuapp.com/food/{id} 
     * **Example**: _https://foodjournal-api.herokuapp.com/food/5_
 
 # Credits
@@ -22,4 +29,3 @@ For more information regarding the food journal, [please see my Angular project]
 Made by me :)
 
 _Jacob Gsell_
-
